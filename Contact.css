@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+/*------------------header---------------------*/
+
+header{
+    
+    width: 100%;
+    padding:20px 10%;
+    background-color: #4f000b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 20px;
+    position: fixed;
+    
+}
+
+header .h2{
+    font-size: 25px;
+    color: #031540;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+ .nav a:hover{
+    color:blue;
+}
+
+header .h2{
+    color: #fff;
+}
+
+/*------------------Contact section---------------------*/
+
+.contact{
+    padding-top: 10%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.808)), url(./Images/FB_IMG_1715237608479.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    font-size: 17px;
+    
+}
+
+.contact h3{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+
+.contact h5{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.contact .message{
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+

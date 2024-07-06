@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    text-decoration: none;
+}
+
+header{
+    
+    width: 100%;
+    padding:20px 10%;
+    background-color: #4f000b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 20px;
+    position: fixed;
+    
+}
+
+header .h2{
+    font-size: 25px;
+    color: #031540;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+ .nav a:hover{
+    color:blue;
+}
+
+header .h2{
+    color: #fff;
+}
+
+/*-------------------------------Section-----------------*/
+
+.section1{
+    height: 150vh;
+    background-color: #130103;
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.938)), url(./Images/fb.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.div1{
+    
+    padding-top: 7%;
+    text-align: center;
+    
+}
+
+.section1 .image{
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.section1 h3{
+    font-size: 25px;
+    color: #fff;
+}
+
+.section1 .div2{
+    display: flex;
+    padding: 5% 5%;
+    gap: 2em;
+}
+
+
+
+.box{
+    width: 400px;
+    color: #fff;
+    border: 0.2em solid white;
+    padding: 3% 3%;
+
+}
+
+
+
+h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    
+}
+
+p{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+
+h2{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    color: #fff;
+    
+    
+}
+
+h1{
+    color: #fff;
+    font-size: 25px;
+}
+
+.p1{
+    color: antiquewhite;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section1 .box :hover{
+transform: scale(1 0.5);
+transition: 1s;
+box-shadow: 0 0 20ox;
+}

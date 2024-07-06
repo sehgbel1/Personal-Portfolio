@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    overflow-x: hidden;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding:1rem 4.5rem;
+    background-color: #1e2f23;
+}
+
+.logo{
+    font-size: 4rem;
+    color: rgb(159, 230, 18);
+}
+
+.nav a{
+  font-size: 20px;  
+margin: 20px;
+color: yellow;
+}
+
+.header-button{
+padding: 0.5rem 2rem;
+cursor: pointer;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: #f9a620;
+color: rgb(7, 7, 105);
+}
+
+.section1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Image/Src/23719.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0.7rem 4.3rem;
+}
+
+.section1 .div1{
+    
+}
+
+.div1 .h1{
+   font-size: 4rem;
+   width: 70%; 
+   color: antiquewhite;   
+   margin-top: 50px;
+}
+
+.div1 .p{
+    font-size: 20px;
+    width: 55%;
+    color: aquamarine;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.div1 button{
+    padding: 1rem 4rem;
+    font-size: 20px;
+    
+    
+}
+
+.section2{
+height: 100vh;
+padding:7% 10%
+
+}
+
+.section2 .div2{
+    display: flex;
+    gap: 20px;
+
+    
+}
+
+
+
+
+.art1 .p1{
+font-size: 16px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-bottom: 20px;
+
+}
+
+.art1 .button{
+    padding: 5% 15%;
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(2, 37, 51);
+}
+
+.section2 .h2{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1e2f23;
+}
